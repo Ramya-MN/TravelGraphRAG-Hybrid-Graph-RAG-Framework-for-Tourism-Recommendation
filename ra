@@ -12,3 +12,329 @@ Designed a proxy dataset using Amazon Fashion data
 Aligned dataset structure to resemble Bloomberg chat data
 👉 Goal: Enable independent experimentation in a realistic setup
 👉 Approach: Took initiative instead of waiting for dependencies
+
+
+
+This is actually a very strong base already — don’t throw it away.
+What you need is not a rewrite, but a polish + positioning upgrade so it sounds like:
+
+👉 “Ramya thinks like a Data Scientist”
+not
+👉 “Ramya did internship tasks”
+
+I’ll refine your exact content (same slides, but sharper, more impactful, and aligned to what stakeholders appreciate).
+
+
+---
+
+🔥 FINAL POLISHED VERSION (Use this directly in PPT)
+
+
+---
+
+🎯 Slide 1: Title Slide
+
+Internship Progress Presentation – Ramya
+
+Ramya
+
+Associate Data Scientist Intern
+
+Société Générale
+
+Duration: Feb 12 – Present
+
+
+
+---
+
+🧭 Slide 2: Objective of the Presentation
+
+Present a structured overview of my internship journey
+
+Highlight key contributions, experiments, and learnings
+
+Demonstrate understanding of project objectives
+
+Showcase my approach to problem-solving and exploration
+
+
+
+---
+
+🏢 Slide 3: Onboarding & Initial Understanding (Feb 12–13)
+
+Completed onboarding and understood organizational structure
+
+Gained visibility into team workflows and collaboration practices
+
+Familiarized with tools, systems, and project environment
+
+
+👉 Outcome: Built a strong foundation to start contributing effectively
+
+
+---
+
+🧠 Slide 4: Project Understanding – Jarvis
+
+Attended KT sessions with Shubhra & Ajitha
+
+Understood:
+
+Business objective of Jarvis
+
+Real-world use case
+
+Existing system challenges
+
+
+Analyzed expected outcomes and problem scope
+
+
+👉 Outcome: Developed a clear conceptual understanding of the system
+
+
+---
+
+📊 Slide 5: Dataset Strategy & Approach
+
+Faced constraint: No direct access to production dataset
+
+Designed a proxy dataset using Amazon Fashion data
+
+Aligned dataset structure to resemble Bloomberg chat data
+
+
+👉 Goal: Enable independent experimentation in a realistic setup
+👉 Approach: Took initiative instead of waiting for dependencies
+
+
+---
+
+🧹 Slide 6: Data Preprocessing & Engineering
+
+Cleaned and structured raw text data
+
+Transformed ratings into binary classification:
+
+(1,2,3) → 0 | (4,5) → 1
+
+
+Identified class imbalance in dataset
+
+
+👉 Outcome: Built a usable dataset for modeling
+👉 Insight: Data preparation significantly impacts model performance
+
+
+---
+
+⚖️ Slide 7: Handling Imbalanced Data
+
+Observed skewed class distribution
+
+Applied SMOTE to balance dataset
+
+Built models on:
+
+Original dataset
+
+SMOTE-balanced dataset
+
+
+
+👉 Learning:
+
+Imbalance can bias predictions
+
+Balanced data improves learning but requires careful evaluation
+
+
+
+---
+
+🤖 Slide 8: Modeling Approaches Explored
+
+Traditional ML:
+
+TF-IDF + Logistic Regression, Random Forest
+
+Ensemble methods
+
+
+Embedding-Based:
+
+Explored FinMPNet embeddings
+
+Compared performance with classical approaches
+
+
+👉 Outcome: Evaluated multiple modeling paradigms
+👉 Focus: Understanding which approach works best and why
+
+
+---
+
+🔍 Slide 9: Advanced Experimentation
+
+Explored:
+
+UMAP for dimensionality reduction
+
+DeBERTa for advanced NLP understanding
+
+
+Applied K-Means clustering
+
+Used cluster IDs as additional features
+
+Implemented KNN based on cluster insights
+
+
+👉 Outcome: Enhanced feature representation beyond raw text
+
+
+---
+
+🔁 Slide 10: Experiment Variations
+
+With vs Without SMOTE
+
+TF-IDF vs Embeddings
+
+With vs Without Clustering
+
+
+👉 Key Insight:
+Model performance depends heavily on:
+
+Data distribution
+
+Feature representation
+
+Preprocessing strategy
+
+
+
+---
+
+📈 Slide 11: Key Learnings
+
+Data preprocessing is critical for model success
+
+Handling imbalance improves reliability
+
+Embeddings capture semantics better than traditional methods
+
+No single model works best — experimentation is essential
+
+Understanding model behavior is as important as accuracy
+
+
+
+---
+
+🚀 Slide 12: Skills Gained
+
+End-to-end ML pipeline development
+
+Text preprocessing & feature engineering
+
+Model experimentation and evaluation
+
+Exposure to NLP techniques and embeddings
+
+Structured problem-solving approach
+
+
+
+---
+
+🧩 Slide 13: Challenges Faced
+
+Understanding real-world project complexity
+
+Simulating production-like dataset
+
+Handling imbalance and tuning models
+
+
+👉 How I addressed them:
+
+Iterative experimentation
+
+Exploring multiple approaches
+
+Seeking guidance when needed
+
+
+
+---
+
+🌱 Slide 14: Growth & Takeaways
+
+Improved confidence in handling ambiguous problems
+
+Developed structured thinking in ML workflows
+
+Strengthened ability to experiment and analyze results
+
+Transitioned from learning concepts to applying them
+
+
+
+---
+
+🔮 Slide 15: Next Steps
+
+Apply learnings to actual Jarvis dataset
+
+Explore advanced techniques (fine-tuning, better embeddings)
+
+Focus on improving model robustness and performance
+
+Contribute towards impact-driven solutions
+
+
+
+---
+
+🙏 Slide 16: Thank You
+
+Open for questions
+
+
+
+---
+
+💡 FINAL UPGRADE (THIS IS WHAT WILL GET YOU APPRECIATION)
+
+When presenting, subtly emphasize:
+
+👉 “I took initiative…”
+👉 “I explored multiple approaches…”
+👉 “I focused on understanding the impact of each step…”
+
+
+---
+
+🧠 One honest note (important for you)
+
+Your work is good.
+But what makes it impressive is this:
+
+You didn’t just build models
+
+You questioned, compared, and learned
+
+
+That’s exactly what this version now shows.
+
+
+---
+
+If you want to go one step higher (this will REALLY impress them):
+I can add a small results table (accuracy/F1 comparison) and a 1-line conclusion slide that makes your work look even more concrete.
+
+Just say 👍
