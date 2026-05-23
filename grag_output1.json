@@ -1,0 +1,1495 @@
+[
+        {
+        "query": "beach destination with budget accommodation",
+        "expanded_query": "beach destination with budget accommodation coastal seaside shore affordable cheap economical",
+        "parameters": {
+            "top_k": 5,
+            "vector_weight": 0.35,
+            "graph_weight": 0.65
+        },
+        "metrics": {
+            "retrieval_time": 0.17992758750915527,
+            "climate_accuracy": {
+                "accuracy": 1.0,
+                "required": [],
+                "checked": 0
+            },
+            "graph_contribution": {
+                "avg_boost": 0.2362,
+                "boosted_count": 3,
+                "details": [
+                    {
+                        "city": "Mangalore",
+                        "boost": 0.6602
+                    },
+                    {
+                        "city": "Allahabad",
+                        "boost": 1.0
+                    },
+                    {
+                        "city": "Goa",
+                        "boost": -0.6542
+                    },
+                    {
+                        "city": "Gokarna",
+                        "boost": 0.8856
+                    },
+                    {
+                        "city": "Kochi",
+                        "boost": -0.7105
+                    }
+                ]
+            },
+            "evidence_grounding_strength": 0.2
+        },
+        "matched_nodes": [
+            {
+                "node": "TripType_Beach",
+                "score": 0.9,
+                "node_type": "TripType"
+            }
+        ],
+        "results": [
+            {
+                "city": "Mangalore",
+                "final_score": 0.7626,
+                "vector_score": 0.3335,
+                "graph_score": 0.9937,
+                "confidence_score": 0.4933,
+                "ranking_score": 0.6818,
+                "evidence_paths": [
+                    {
+                        "target": "TripType_Beach",
+                        "hops": 2,
+                        "relation": "multi-hop",
+                        "source": "graph-traversal",
+                        "evidence_type": "multi_hop_2",
+                        "path_str": "Mangalore --[GEOGRAPHICALLY_NEAR]--> Udupi [derived:haversine] | Udupi --[SUITS_TRIP_TYPE]--> TripType_Beach [wikipedia:Udupi]",
+                        "confidence": 0.5
+                    }
+                ],
+                "evidence_stats": {
+                    "direct": 0,
+                    "total": 1
+                },
+                "matched_nodes": [
+                    "TripType_Beach"
+                ],
+                "city_attrs": {
+                    "type": "Destination",
+                    "layer": 2,
+                    "state": "Koppal district",
+                    "district": "Yelbarga Taluk",
+                    "latitude": 12.9141,
+                    "longitude": 74.856,
+                    "altitude_m": 22,
+                    "climate_category": "Tropical",
+                    "budget_tier": "Mid-Range",
+                    "accessibility": "Easy",
+                    "road_connectivity": "Excellent",
+                    "permits_required": false,
+                    "permits_details": "Not required",
+                    "minimum_days": 2,
+                    "ideal_days": 3,
+                    "maximum_days": 5,
+                    "popularity_score": 6,
+                    "safety_rating": 8,
+                    "internet_connectivity": "Good",
+                    "peak_tourist_season": "Jan-Dec",
+                    "off_season": "Jun-Sep",
+                    "unique_experiences": "",
+                    "wikipedia_url": "",
+                    "wikidata_qid": "Q91020508",
+                    "coverage_pct": 67.6,
+                    "budget_acc_range": "[500, 1000]",
+                    "mid_acc_range": "[1500, 3500]",
+                    "luxury_acc_range": "[6000, 15000]",
+                    "community_id": 1,
+                    "degree_centrality": 0.0179,
+                    "betweenness_centrality": 0.000906,
+                    "confidence_score": 0.6549,
+                    "pref_vector": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.004399999976158142,
+                        0.6000000238418579,
+                        0.800000011920929
+                    ]
+                },
+                "filter_report": {
+                    "total_before": 78,
+                    "total_after": 78,
+                    "filtered_out": 0,
+                    "constraints_applied": 0,
+                    "reason": "No hard constraints",
+                    "filter_summary": [],
+                    "rejection_reasons": {}
+                },
+                "geo_constraint": {
+                    "detected": false,
+                    "states": [],
+                    "keyword": ""
+                },
+                "weights_used": {
+                    "vector": 0.35,
+                    "graph": 0.65
+                },
+                "validation": {
+                    "checks": [
+                        {
+                            "requirement": "TripType_Beach",
+                            "satisfied": false,
+                            "score": 0.0,
+                            "constraint_type": "soft"
+                        }
+                    ],
+                    "pass_rate": 0.0,
+                    "passed": 0,
+                    "total": 1,
+                    "hard_pass_rate": 1.0,
+                    "soft_pass_rate": 0.0,
+                    "avg_satisfaction": 0.0
+                },
+                "method": "graph_rag",
+                "retrieval_report": {
+                    "ranked_out": [
+                        {
+                            "city": "Kaziranga",
+                            "ranking_score": 0.534,
+                            "final_score": 0.5601,
+                            "vector_score": 0.0,
+                            "graph_score": 0.8617,
+                            "confidence_score": 0.4731,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 6 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Udupi",
+                            "ranking_score": 0.528,
+                            "final_score": 0.3978,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6119,
+                            "confidence_score": 0.8318,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 7 (top_k=5)",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Kovalam",
+                            "ranking_score": 0.4871,
+                            "final_score": 0.344,
+                            "vector_score": 0.8806,
+                            "graph_score": 0.0551,
+                            "confidence_score": 0.8208,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 8 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Varkala",
+                            "ranking_score": 0.4701,
+                            "final_score": 0.318,
+                            "vector_score": 0.5794,
+                            "graph_score": 0.1772,
+                            "confidence_score": 0.825,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 9 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Kanyakumari",
+                            "ranking_score": 0.4647,
+                            "final_score": 0.3208,
+                            "vector_score": 0.6125,
+                            "graph_score": 0.1637,
+                            "confidence_score": 0.8005,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 10 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Ranthambore",
+                            "ranking_score": 0.4625,
+                            "final_score": 0.4573,
+                            "vector_score": 0.0,
+                            "graph_score": 0.7036,
+                            "confidence_score": 0.4746,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 11 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Chikmagalur",
+                            "ranking_score": 0.4461,
+                            "final_score": 0.4169,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6414,
+                            "confidence_score": 0.5143,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 12 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Wayanad",
+                            "ranking_score": 0.4255,
+                            "final_score": 0.4166,
+                            "vector_score": 0.0451,
+                            "graph_score": 0.6166,
+                            "confidence_score": 0.4464,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 13 (top_k=5)",
+                                "low confidence < 0.45",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Varanasi",
+                            "ranking_score": 0.4241,
+                            "final_score": 0.3863,
+                            "vector_score": 0.2845,
+                            "graph_score": 0.4412,
+                            "confidence_score": 0.5124,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 14 (top_k=5)",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Pondicherry",
+                            "ranking_score": 0.4201,
+                            "final_score": 0.2511,
+                            "vector_score": 0.4309,
+                            "graph_score": 0.1542,
+                            "confidence_score": 0.8146,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 15 (top_k=5)"
+                            ]
+                        }
+                    ],
+                    "ranked_out_total": 73
+                },
+                "refinement_report": {
+                    "iterations": [],
+                    "enabled": true,
+                    "threshold": 0.45
+                }
+            },
+            {
+                "city": "Allahabad",
+                "final_score": 0.65,
+                "vector_score": 0.0,
+                "graph_score": 1.0,
+                "confidence_score": 0.4652,
+                "ranking_score": 0.5946,
+                "evidence_paths": [
+                    {
+                        "target": "TripType_Beach",
+                        "hops": 2,
+                        "relation": "multi-hop",
+                        "source": "graph-traversal",
+                        "evidence_type": "multi_hop_2",
+                        "path_str": "Allahabad --[SIMILAR_TO]--> Konark [derived:cosine] | Konark --[SUITS_TRIP_TYPE]--> TripType_Beach [wikipedia:Konark]",
+                        "confidence": 0.5
+                    }
+                ],
+                "evidence_stats": {
+                    "direct": 0,
+                    "total": 1
+                },
+                "matched_nodes": [
+                    "TripType_Beach"
+                ],
+                "city_attrs": {
+                    "type": "Destination",
+                    "layer": 2,
+                    "state": "Uttar Pradesh",
+                    "district": "Prayagraj",
+                    "latitude": 25.4358,
+                    "longitude": 81.8463,
+                    "altitude_m": 98,
+                    "climate_category": "Moderate",
+                    "budget_tier": "Mid-Range",
+                    "accessibility": "Easy",
+                    "road_connectivity": "Excellent",
+                    "permits_required": false,
+                    "permits_details": "Not required",
+                    "minimum_days": 2,
+                    "ideal_days": 3,
+                    "maximum_days": 5,
+                    "popularity_score": 7,
+                    "safety_rating": 7,
+                    "internet_connectivity": "Good",
+                    "peak_tourist_season": "Jan-Dec",
+                    "off_season": "Jul-Sep",
+                    "unique_experiences": "",
+                    "wikipedia_url": "",
+                    "wikidata_qid": "Q25473581",
+                    "coverage_pct": 67.6,
+                    "budget_acc_range": "[400, 800]",
+                    "mid_acc_range": "[1200, 3000]",
+                    "luxury_acc_range": "[5000, 12000]",
+                    "community_id": 1,
+                    "degree_centrality": 0.0179,
+                    "betweenness_centrality": 0.000937,
+                    "confidence_score": 0.6499,
+                    "pref_vector": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        1.0,
+                        0.019600000232458115,
+                        0.699999988079071,
+                        0.699999988079071
+                    ]
+                },
+                "filter_report": {
+                    "total_before": 78,
+                    "total_after": 78,
+                    "filtered_out": 0,
+                    "constraints_applied": 0,
+                    "reason": "No hard constraints",
+                    "filter_summary": [],
+                    "rejection_reasons": {}
+                },
+                "geo_constraint": {
+                    "detected": false,
+                    "states": [],
+                    "keyword": ""
+                },
+                "weights_used": {
+                    "vector": 0.35,
+                    "graph": 0.65
+                },
+                "validation": {
+                    "checks": [
+                        {
+                            "requirement": "TripType_Beach",
+                            "satisfied": false,
+                            "score": 0.0,
+                            "constraint_type": "soft"
+                        }
+                    ],
+                    "pass_rate": 0.0,
+                    "passed": 0,
+                    "total": 1,
+                    "hard_pass_rate": 1.0,
+                    "soft_pass_rate": 0.0,
+                    "avg_satisfaction": 0.0
+                },
+                "method": "graph_rag",
+                "retrieval_report": {
+                    "ranked_out": [
+                        {
+                            "city": "Kaziranga",
+                            "ranking_score": 0.534,
+                            "final_score": 0.5601,
+                            "vector_score": 0.0,
+                            "graph_score": 0.8617,
+                            "confidence_score": 0.4731,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 6 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Udupi",
+                            "ranking_score": 0.528,
+                            "final_score": 0.3978,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6119,
+                            "confidence_score": 0.8318,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 7 (top_k=5)",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Kovalam",
+                            "ranking_score": 0.4871,
+                            "final_score": 0.344,
+                            "vector_score": 0.8806,
+                            "graph_score": 0.0551,
+                            "confidence_score": 0.8208,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 8 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Varkala",
+                            "ranking_score": 0.4701,
+                            "final_score": 0.318,
+                            "vector_score": 0.5794,
+                            "graph_score": 0.1772,
+                            "confidence_score": 0.825,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 9 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Kanyakumari",
+                            "ranking_score": 0.4647,
+                            "final_score": 0.3208,
+                            "vector_score": 0.6125,
+                            "graph_score": 0.1637,
+                            "confidence_score": 0.8005,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 10 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Ranthambore",
+                            "ranking_score": 0.4625,
+                            "final_score": 0.4573,
+                            "vector_score": 0.0,
+                            "graph_score": 0.7036,
+                            "confidence_score": 0.4746,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 11 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Chikmagalur",
+                            "ranking_score": 0.4461,
+                            "final_score": 0.4169,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6414,
+                            "confidence_score": 0.5143,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 12 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Wayanad",
+                            "ranking_score": 0.4255,
+                            "final_score": 0.4166,
+                            "vector_score": 0.0451,
+                            "graph_score": 0.6166,
+                            "confidence_score": 0.4464,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 13 (top_k=5)",
+                                "low confidence < 0.45",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Varanasi",
+                            "ranking_score": 0.4241,
+                            "final_score": 0.3863,
+                            "vector_score": 0.2845,
+                            "graph_score": 0.4412,
+                            "confidence_score": 0.5124,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 14 (top_k=5)",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Pondicherry",
+                            "ranking_score": 0.4201,
+                            "final_score": 0.2511,
+                            "vector_score": 0.4309,
+                            "graph_score": 0.1542,
+                            "confidence_score": 0.8146,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 15 (top_k=5)"
+                            ]
+                        }
+                    ],
+                    "ranked_out_total": 73
+                },
+                "refinement_report": {
+                    "iterations": [],
+                    "enabled": true,
+                    "threshold": 0.45
+                }
+            },
+            {
+                "city": "Goa",
+                "final_score": 0.4675,
+                "vector_score": 0.8927,
+                "graph_score": 0.2385,
+                "confidence_score": 0.8327,
+                "ranking_score": 0.577,
+                "evidence_paths": [
+                    {
+                        "target": "TripType_Beach",
+                        "hops": 1,
+                        "relation": "SUITS_TRIP_TYPE",
+                        "source": "wikipedia:Goa",
+                        "evidence_type": "direct",
+                        "path_str": "Goa --[SUITS_TRIP_TYPE]--> TripType_Beach",
+                        "confidence": 1.0
+                    }
+                ],
+                "evidence_stats": {
+                    "direct": 1,
+                    "total": 1
+                },
+                "matched_nodes": [
+                    "TripType_Beach"
+                ],
+                "city_attrs": {
+                    "type": "Destination",
+                    "layer": 2,
+                    "state": "Unknown",
+                    "district": "India",
+                    "latitude": 15.4019,
+                    "longitude": 74.0433,
+                    "altitude_m": 1167,
+                    "climate_category": "Tropical",
+                    "budget_tier": "Mid-Range",
+                    "accessibility": "Easy",
+                    "road_connectivity": "Excellent",
+                    "permits_required": false,
+                    "permits_details": "Not required",
+                    "minimum_days": 2,
+                    "ideal_days": 5,
+                    "maximum_days": 10,
+                    "popularity_score": 9,
+                    "safety_rating": 7,
+                    "internet_connectivity": "Excellent",
+                    "peak_tourist_season": "Jan-Dec",
+                    "off_season": "Jun-Sep",
+                    "unique_experiences": "Goa ( GOH-\u0259; Konkani: [\u0261\u0254\u0303j]; Portuguese: [\u02c8\u0261o\u0250] ) is a state on the southwestern coast of India within the Konkan region. It is geographically separated from the Deccan highlands by the Western Ghats",
+                    "wikipedia_url": "https://en.wikipedia.org/wiki/Goa",
+                    "wikidata_qid": "Q1171",
+                    "coverage_pct": 97.1,
+                    "budget_acc_range": "[700, 1400]",
+                    "mid_acc_range": "[2000, 4500]",
+                    "luxury_acc_range": "[8000, 22000]",
+                    "community_id": 3,
+                    "degree_centrality": 0.0429,
+                    "betweenness_centrality": 0.02899,
+                    "confidence_score": 0.7935,
+                    "pref_vector": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        1.0,
+                        0.23340000212192535,
+                        0.8999999761581421,
+                        0.699999988079071
+                    ]
+                },
+                "filter_report": {
+                    "total_before": 78,
+                    "total_after": 78,
+                    "filtered_out": 0,
+                    "constraints_applied": 0,
+                    "reason": "No hard constraints",
+                    "filter_summary": [],
+                    "rejection_reasons": {}
+                },
+                "geo_constraint": {
+                    "detected": false,
+                    "states": [],
+                    "keyword": ""
+                },
+                "weights_used": {
+                    "vector": 0.35,
+                    "graph": 0.65
+                },
+                "validation": {
+                    "checks": [
+                        {
+                            "requirement": "TripType_Beach",
+                            "satisfied": true,
+                            "score": 1.0,
+                            "constraint_type": "soft"
+                        }
+                    ],
+                    "pass_rate": 1.0,
+                    "passed": 1,
+                    "total": 1,
+                    "hard_pass_rate": 1.0,
+                    "soft_pass_rate": 1.0,
+                    "avg_satisfaction": 1.0
+                },
+                "method": "graph_rag",
+                "retrieval_report": {
+                    "ranked_out": [
+                        {
+                            "city": "Kaziranga",
+                            "ranking_score": 0.534,
+                            "final_score": 0.5601,
+                            "vector_score": 0.0,
+                            "graph_score": 0.8617,
+                            "confidence_score": 0.4731,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 6 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Udupi",
+                            "ranking_score": 0.528,
+                            "final_score": 0.3978,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6119,
+                            "confidence_score": 0.8318,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 7 (top_k=5)",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Kovalam",
+                            "ranking_score": 0.4871,
+                            "final_score": 0.344,
+                            "vector_score": 0.8806,
+                            "graph_score": 0.0551,
+                            "confidence_score": 0.8208,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 8 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Varkala",
+                            "ranking_score": 0.4701,
+                            "final_score": 0.318,
+                            "vector_score": 0.5794,
+                            "graph_score": 0.1772,
+                            "confidence_score": 0.825,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 9 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Kanyakumari",
+                            "ranking_score": 0.4647,
+                            "final_score": 0.3208,
+                            "vector_score": 0.6125,
+                            "graph_score": 0.1637,
+                            "confidence_score": 0.8005,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 10 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Ranthambore",
+                            "ranking_score": 0.4625,
+                            "final_score": 0.4573,
+                            "vector_score": 0.0,
+                            "graph_score": 0.7036,
+                            "confidence_score": 0.4746,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 11 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Chikmagalur",
+                            "ranking_score": 0.4461,
+                            "final_score": 0.4169,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6414,
+                            "confidence_score": 0.5143,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 12 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Wayanad",
+                            "ranking_score": 0.4255,
+                            "final_score": 0.4166,
+                            "vector_score": 0.0451,
+                            "graph_score": 0.6166,
+                            "confidence_score": 0.4464,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 13 (top_k=5)",
+                                "low confidence < 0.45",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Varanasi",
+                            "ranking_score": 0.4241,
+                            "final_score": 0.3863,
+                            "vector_score": 0.2845,
+                            "graph_score": 0.4412,
+                            "confidence_score": 0.5124,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 14 (top_k=5)",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Pondicherry",
+                            "ranking_score": 0.4201,
+                            "final_score": 0.2511,
+                            "vector_score": 0.4309,
+                            "graph_score": 0.1542,
+                            "confidence_score": 0.8146,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 15 (top_k=5)"
+                            ]
+                        }
+                    ],
+                    "ranked_out_total": 73
+                },
+                "refinement_report": {
+                    "iterations": [],
+                    "enabled": true,
+                    "threshold": 0.45
+                }
+            },
+            {
+                "city": "Gokarna",
+                "final_score": 0.5756,
+                "vector_score": 0.0,
+                "graph_score": 0.8856,
+                "confidence_score": 0.5633,
+                "ranking_score": 0.5719,
+                "evidence_paths": [
+                    {
+                        "target": "TripType_Beach",
+                        "hops": 2,
+                        "relation": "multi-hop",
+                        "source": "graph-traversal",
+                        "evidence_type": "multi_hop_2",
+                        "path_str": "Gokarna --[GEOGRAPHICALLY_NEAR]--> Goa [derived:haversine] | Goa --[SUITS_TRIP_TYPE]--> TripType_Beach [wikipedia:Goa]",
+                        "confidence": 0.5
+                    }
+                ],
+                "evidence_stats": {
+                    "direct": 0,
+                    "total": 1
+                },
+                "matched_nodes": [
+                    "TripType_Beach"
+                ],
+                "city_attrs": {
+                    "type": "Destination",
+                    "layer": 2,
+                    "state": "Belgaum division",
+                    "district": "Uttara Kannada District",
+                    "latitude": 14.55,
+                    "longitude": 74.3167,
+                    "altitude_m": 586,
+                    "climate_category": "Tropical",
+                    "budget_tier": "Mid-Range",
+                    "accessibility": "Moderate",
+                    "road_connectivity": "Average",
+                    "permits_required": false,
+                    "permits_details": "Not required",
+                    "minimum_days": 2,
+                    "ideal_days": 3,
+                    "maximum_days": 5,
+                    "popularity_score": 7,
+                    "safety_rating": 8,
+                    "internet_connectivity": "Average",
+                    "peak_tourist_season": "Jan-Dec",
+                    "off_season": "Jun-Sep",
+                    "unique_experiences": "Gokarna may refer to:\n\n\nPlaces\nGokarna, Karnataka, a town in Karnataka, India\nGokarna, West Bengal, a village in West Bengal, India\nGokarnamatam, a village in Andhra Pradesh, India\nGola Gokarannath, a city in Lakhimpur Kheri district, Uttar Pradesh, India\nTrincomalee, a city in Eastern Province, Sri Lanka also known in its early history as Gokarna (Sanskrit) or Gokanna (Pali)\nGokarna, Bangladesh, a village in Chittagong Division, Bangladesh\nGokarneshwar, a municipality in Kathmandu District in central Nepal\n\n\nReligious\nGokarna Aunsi, a late August or early September celebration in Nepal\nGokarna Math, one of the 24 mathas of the Dvaita order\nGokarnanatheshwara Temple, a temple in Mangaluru, India\nGokarneshvara temple, Pudukkottai, a temple in Tamil Nadu, India\nMahabaleshwar Temple, Gokarna, a temple located in Gokarna, Uttara Kannada district, Karnataka state, India\nGokarneshwor Mahadev temple, Kathmandu Valley in Nepal\n\n\nOther uses\nGokarna (film), a 2003 film produced in India\n\n\nSee al",
+                    "wikipedia_url": "https://en.wikipedia.org/wiki/Gokarna",
+                    "wikidata_qid": "Q1025271",
+                    "coverage_pct": 100.0,
+                    "budget_acc_range": "[400, 800]",
+                    "mid_acc_range": "[1200, 3000]",
+                    "luxury_acc_range": "[5000, 12000]",
+                    "community_id": 1,
+                    "degree_centrality": 0.025,
+                    "betweenness_centrality": 0.00456,
+                    "confidence_score": 0.788,
+                    "pref_vector": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        0.6666666865348816,
+                        0.11720000207424164,
+                        0.699999988079071,
+                        0.800000011920929
+                    ]
+                },
+                "filter_report": {
+                    "total_before": 78,
+                    "total_after": 78,
+                    "filtered_out": 0,
+                    "constraints_applied": 0,
+                    "reason": "No hard constraints",
+                    "filter_summary": [],
+                    "rejection_reasons": {}
+                },
+                "geo_constraint": {
+                    "detected": false,
+                    "states": [],
+                    "keyword": ""
+                },
+                "weights_used": {
+                    "vector": 0.35,
+                    "graph": 0.65
+                },
+                "validation": {
+                    "checks": [
+                        {
+                            "requirement": "TripType_Beach",
+                            "satisfied": false,
+                            "score": 0.0,
+                            "constraint_type": "soft"
+                        }
+                    ],
+                    "pass_rate": 0.0,
+                    "passed": 0,
+                    "total": 1,
+                    "hard_pass_rate": 1.0,
+                    "soft_pass_rate": 0.0,
+                    "avg_satisfaction": 0.0
+                },
+                "method": "graph_rag",
+                "retrieval_report": {
+                    "ranked_out": [
+                        {
+                            "city": "Kaziranga",
+                            "ranking_score": 0.534,
+                            "final_score": 0.5601,
+                            "vector_score": 0.0,
+                            "graph_score": 0.8617,
+                            "confidence_score": 0.4731,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 6 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Udupi",
+                            "ranking_score": 0.528,
+                            "final_score": 0.3978,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6119,
+                            "confidence_score": 0.8318,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 7 (top_k=5)",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Kovalam",
+                            "ranking_score": 0.4871,
+                            "final_score": 0.344,
+                            "vector_score": 0.8806,
+                            "graph_score": 0.0551,
+                            "confidence_score": 0.8208,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 8 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Varkala",
+                            "ranking_score": 0.4701,
+                            "final_score": 0.318,
+                            "vector_score": 0.5794,
+                            "graph_score": 0.1772,
+                            "confidence_score": 0.825,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 9 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Kanyakumari",
+                            "ranking_score": 0.4647,
+                            "final_score": 0.3208,
+                            "vector_score": 0.6125,
+                            "graph_score": 0.1637,
+                            "confidence_score": 0.8005,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 10 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Ranthambore",
+                            "ranking_score": 0.4625,
+                            "final_score": 0.4573,
+                            "vector_score": 0.0,
+                            "graph_score": 0.7036,
+                            "confidence_score": 0.4746,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 11 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Chikmagalur",
+                            "ranking_score": 0.4461,
+                            "final_score": 0.4169,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6414,
+                            "confidence_score": 0.5143,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 12 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Wayanad",
+                            "ranking_score": 0.4255,
+                            "final_score": 0.4166,
+                            "vector_score": 0.0451,
+                            "graph_score": 0.6166,
+                            "confidence_score": 0.4464,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 13 (top_k=5)",
+                                "low confidence < 0.45",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Varanasi",
+                            "ranking_score": 0.4241,
+                            "final_score": 0.3863,
+                            "vector_score": 0.2845,
+                            "graph_score": 0.4412,
+                            "confidence_score": 0.5124,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 14 (top_k=5)",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Pondicherry",
+                            "ranking_score": 0.4201,
+                            "final_score": 0.2511,
+                            "vector_score": 0.4309,
+                            "graph_score": 0.1542,
+                            "confidence_score": 0.8146,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 15 (top_k=5)"
+                            ]
+                        }
+                    ],
+                    "ranked_out_total": 73
+                },
+                "refinement_report": {
+                    "iterations": [],
+                    "enabled": true,
+                    "threshold": 0.45
+                }
+            },
+            {
+                "city": "Kochi",
+                "final_score": 0.5382,
+                "vector_score": 1.0,
+                "graph_score": 0.2895,
+                "confidence_score": 0.5469,
+                "ranking_score": 0.5408,
+                "evidence_paths": [
+                    {
+                        "target": "TripType_Beach",
+                        "hops": 2,
+                        "relation": "multi-hop",
+                        "source": "graph-traversal",
+                        "evidence_type": "multi_hop_2",
+                        "path_str": "Kochi --[SIMILAR_TO]--> Goa [derived:cosine] | Goa --[SUITS_TRIP_TYPE]--> TripType_Beach [wikipedia:Goa]",
+                        "confidence": 0.5
+                    }
+                ],
+                "evidence_stats": {
+                    "direct": 0,
+                    "total": 1
+                },
+                "matched_nodes": [
+                    "TripType_Beach"
+                ],
+                "city_attrs": {
+                    "type": "Destination",
+                    "layer": 2,
+                    "state": "Kerala",
+                    "district": "Ernakulam district",
+                    "latitude": 9.9667,
+                    "longitude": 76.2833,
+                    "altitude_m": 0,
+                    "climate_category": "Tropical",
+                    "budget_tier": "Mid-Range",
+                    "accessibility": "Easy",
+                    "road_connectivity": "Excellent",
+                    "permits_required": false,
+                    "permits_details": "Not required",
+                    "minimum_days": 2,
+                    "ideal_days": 4,
+                    "maximum_days": 7,
+                    "popularity_score": 8,
+                    "safety_rating": 7,
+                    "internet_connectivity": "Excellent",
+                    "peak_tourist_season": "Feb-Mar",
+                    "off_season": "Jun-Sep",
+                    "unique_experiences": "Kochi ( KOH-chee, Malayalam: [kot\u02c8t\u0361\u0283i] ), formerly known as Cochin ( KOH-chin), is a major port city along the Malabar Coast of India bordering the Laccadive Sea. It is part of the district of Ernakulam in the state of Kerala",
+                    "wikipedia_url": "https://en.wikipedia.org/wiki/Kochi",
+                    "wikidata_qid": "Q1800",
+                    "coverage_pct": 100.0,
+                    "budget_acc_range": "[700, 1400]",
+                    "mid_acc_range": "[2000, 4500]",
+                    "luxury_acc_range": "[8000, 20000]",
+                    "community_id": 1,
+                    "degree_centrality": 0.0465,
+                    "betweenness_centrality": 0.042819,
+                    "confidence_score": 0.7846,
+                    "pref_vector": [
+                        0.0,
+                        1.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.800000011920929,
+                        0.699999988079071
+                    ]
+                },
+                "filter_report": {
+                    "total_before": 78,
+                    "total_after": 78,
+                    "filtered_out": 0,
+                    "constraints_applied": 0,
+                    "reason": "No hard constraints",
+                    "filter_summary": [],
+                    "rejection_reasons": {}
+                },
+                "geo_constraint": {
+                    "detected": false,
+                    "states": [],
+                    "keyword": ""
+                },
+                "weights_used": {
+                    "vector": 0.35,
+                    "graph": 0.65
+                },
+                "validation": {
+                    "checks": [
+                        {
+                            "requirement": "TripType_Beach",
+                            "satisfied": false,
+                            "score": 0.0,
+                            "constraint_type": "soft"
+                        }
+                    ],
+                    "pass_rate": 0.0,
+                    "passed": 0,
+                    "total": 1,
+                    "hard_pass_rate": 1.0,
+                    "soft_pass_rate": 0.0,
+                    "avg_satisfaction": 0.0
+                },
+                "method": "graph_rag",
+                "retrieval_report": {
+                    "ranked_out": [
+                        {
+                            "city": "Kaziranga",
+                            "ranking_score": 0.534,
+                            "final_score": 0.5601,
+                            "vector_score": 0.0,
+                            "graph_score": 0.8617,
+                            "confidence_score": 0.4731,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 6 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Udupi",
+                            "ranking_score": 0.528,
+                            "final_score": 0.3978,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6119,
+                            "confidence_score": 0.8318,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 7 (top_k=5)",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Kovalam",
+                            "ranking_score": 0.4871,
+                            "final_score": 0.344,
+                            "vector_score": 0.8806,
+                            "graph_score": 0.0551,
+                            "confidence_score": 0.8208,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 8 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Varkala",
+                            "ranking_score": 0.4701,
+                            "final_score": 0.318,
+                            "vector_score": 0.5794,
+                            "graph_score": 0.1772,
+                            "confidence_score": 0.825,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 9 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Kanyakumari",
+                            "ranking_score": 0.4647,
+                            "final_score": 0.3208,
+                            "vector_score": 0.6125,
+                            "graph_score": 0.1637,
+                            "confidence_score": 0.8005,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 10 (top_k=5)"
+                            ]
+                        },
+                        {
+                            "city": "Ranthambore",
+                            "ranking_score": 0.4625,
+                            "final_score": 0.4573,
+                            "vector_score": 0.0,
+                            "graph_score": 0.7036,
+                            "confidence_score": 0.4746,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 11 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Chikmagalur",
+                            "ranking_score": 0.4461,
+                            "final_score": 0.4169,
+                            "vector_score": 0.0,
+                            "graph_score": 0.6414,
+                            "confidence_score": 0.5143,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 12 (top_k=5)",
+                                "no direct evidence edges",
+                                "vector similarity low/zero"
+                            ]
+                        },
+                        {
+                            "city": "Wayanad",
+                            "ranking_score": 0.4255,
+                            "final_score": 0.4166,
+                            "vector_score": 0.0451,
+                            "graph_score": 0.6166,
+                            "confidence_score": 0.4464,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 13 (top_k=5)",
+                                "low confidence < 0.45",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Varanasi",
+                            "ranking_score": 0.4241,
+                            "final_score": 0.3863,
+                            "vector_score": 0.2845,
+                            "graph_score": 0.4412,
+                            "confidence_score": 0.5124,
+                            "evidence_stats": {
+                                "direct": 0,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 14 (top_k=5)",
+                                "no direct evidence edges"
+                            ]
+                        },
+                        {
+                            "city": "Pondicherry",
+                            "ranking_score": 0.4201,
+                            "final_score": 0.2511,
+                            "vector_score": 0.4309,
+                            "graph_score": 0.1542,
+                            "confidence_score": 0.8146,
+                            "evidence_stats": {
+                                "direct": 1,
+                                "total": 1
+                            },
+                            "reasons": [
+                                "ranked 15 (top_k=5)"
+                            ]
+                        }
+                    ],
+                    "ranked_out_total": 73
+                },
+                "refinement_report": {
+                    "iterations": [],
+                    "enabled": true,
+                    "threshold": 0.45
+                }
+            }
+        ]
+    }
+]

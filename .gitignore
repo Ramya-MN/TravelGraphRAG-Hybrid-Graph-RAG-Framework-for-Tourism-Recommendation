@@ -1,0 +1,62 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build and packaging artifacts
+.dist/
+dist/
+build/
+*.egg-info/
+
+# Temporary exports and archive files
+temp_graph.html
+*.zip
+*.pdf
+*.log
+
+# Large intermediate raw data that can be regenerated
+data/
+ 
+# Entries requested by user
+config/
+docs/
+lib/
+ui/
+
+# Specific files
+app3_old.py
+app3.py
+demo_real_data_loader.py
+demo_real_places.json
+load_demo_data.py
+m_schema.py
+main.py
+schema_engine.py
+teat_load.py
+test_load.py
+test_mschema_script.py
+test.py
+utils.py
+
+# All markdown and text files
+*.md
+*.txt

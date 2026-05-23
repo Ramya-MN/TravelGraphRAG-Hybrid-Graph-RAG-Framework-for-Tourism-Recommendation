@@ -1,0 +1,886 @@
+[
+  {
+    "query": "Best cultural places in Karnataka",
+    "parameters": {
+      "top_k": 5,
+      "use_graph": true,
+      "use_semantic": true,
+      "use_refinement": true,
+      "use_personalization": true
+    },
+    "processing_time": 0.055472373962402344,
+    "constraints": {
+      "trip_type": "Cultural",
+      "trip_types": [
+        "Cultural"
+      ],
+      "location_terms": [
+        "karnataka"
+      ]
+    },
+    "accepted": [
+      {
+        "dest_id": 238,
+        "name": "Pattadakal",
+        "confidence": 0.9133005424911065,
+        "s_sem": 0.4300669759745107,
+        "s_graph": 0.978802318479409,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Adventure",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Adventure",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Pattadakal",
+              "Karnataka",
+              "Bagalkot"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 256,
+        "name": "Coorg-Madikeri",
+        "confidence": 0.906761904705202,
+        "s_sem": 0.5160271417789984,
+        "s_graph": 0.9362364400026982,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Nature",
+              "Adventure",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Nature",
+              "Adventure",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Coorg-Madikeri",
+              "Karnataka",
+              "Kodagu"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 237,
+        "name": "Badami",
+        "confidence": 0.8986681630931384,
+        "s_sem": 0.46536693133099283,
+        "s_graph": 0.9362364400026982,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Adventure",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Adventure",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Badami",
+              "Karnataka",
+              "Bagalkot"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 236,
+        "name": "Bangalore",
+        "confidence": 0.893753958577665,
+        "s_sem": 0.2262463656799109,
+        "s_graph": 1.0,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Food",
+              "Shopping",
+              "Nightlife"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Food",
+              "Shopping",
+              "Nightlife"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Bangalore",
+              "Karnataka",
+              "Bangalore Urban"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 257,
+        "name": "Sakleshpur",
+        "confidence": 0.8811553112975605,
+        "s_sem": 0.4778714832694021,
+        "s_graph": 0.8936705615259876,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Nature",
+              "Adventure",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Nature",
+              "Adventure",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Sakleshpur",
+              "Karnataka",
+              "Hassan"
+            ],
+            "matched": true
+          }
+        ]
+      }
+    ],
+    "raw_candidates": [
+      {
+        "dest_id": 238,
+        "name": "Pattadakal",
+        "confidence": 0.9133005424911065,
+        "s_sem": 0.4300669759745107,
+        "s_graph": 0.978802318479409,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Adventure",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Adventure",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Pattadakal",
+              "Karnataka",
+              "Bagalkot"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 236,
+        "name": "Bangalore",
+        "confidence": 0.893753958577665,
+        "s_sem": 0.2262463656799109,
+        "s_graph": 1.0,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Food",
+              "Shopping",
+              "Nightlife"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Food",
+              "Shopping",
+              "Nightlife"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Bangalore",
+              "Karnataka",
+              "Bangalore Urban"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 242,
+        "name": "Belur",
+        "confidence": 0.8722439312517747,
+        "s_sem": 0.4466503381290218,
+        "s_graph": 0.8864910650484727,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Belur",
+              "Karnataka",
+              "Hassan"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 245,
+        "name": "Murdeshwar",
+        "confidence": 0.800179501396459,
+        "s_sem": 0.35051314915276327,
+        "s_graph": 0.8684552549901248,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Beach",
+              "Relaxation",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Beach",
+              "Relaxation",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Murdeshwar",
+              "Karnataka",
+              "Uttara Kannada"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 256,
+        "name": "Coorg-Madikeri",
+        "confidence": 0.906761904705202,
+        "s_sem": 0.5160271417789984,
+        "s_graph": 0.9362364400026982,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Nature",
+              "Adventure",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Nature",
+              "Adventure",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Coorg-Madikeri",
+              "Karnataka",
+              "Kodagu"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 249,
+        "name": "Sravanabelagola",
+        "confidence": 0.8623228047163234,
+        "s_sem": 0.3695416052973452,
+        "s_graph": 0.8897675455765466,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Adventure"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Adventure"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Sravanabelagola",
+              "Karnataka",
+              "Hassan"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 237,
+        "name": "Badami",
+        "confidence": 0.8986681630931384,
+        "s_sem": 0.46536693133099283,
+        "s_graph": 0.9362364400026982,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Adventure",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Adventure",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Badami",
+              "Karnataka",
+              "Bagalkot"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 257,
+        "name": "Sakleshpur",
+        "confidence": 0.8811553112975605,
+        "s_sem": 0.4778714832694021,
+        "s_graph": 0.8936705615259876,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Nature",
+              "Adventure",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Nature",
+              "Adventure",
+              "Cultural"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Sakleshpur",
+              "Karnataka",
+              "Hassan"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 247,
+        "name": "Bijapur",
+        "confidence": 0.761057744859343,
+        "s_sem": 0.41294879899348763,
+        "s_graph": 0.7837205290190069,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Historical",
+              "Relaxation"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Historical",
+              "Relaxation"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Bijapur",
+              "Karnataka",
+              "Bijapur"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 243,
+        "name": "Halebidu",
+        "confidence": 0.8581802365789697,
+        "s_sem": 0.48573507511480346,
+        "s_graph": 0.843925186571762,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Halebidu",
+              "Karnataka",
+              "Hassan"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 241,
+        "name": "Hassan",
+        "confidence": 0.8535309068106836,
+        "s_sem": 0.4570194658851574,
+        "s_graph": 0.843925186571762,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Hassan",
+              "Karnataka",
+              "Hassan"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 239,
+        "name": "Aihole",
+        "confidence": 0.8490441704560454,
+        "s_sem": 0.3060024366327809,
+        "s_graph": 0.8864910650484727,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Spiritual",
+              "Nature"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Aihole",
+              "Karnataka",
+              "Bagalkot"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 248,
+        "name": "Gulbarga",
+        "confidence": 0.7348534479594351,
+        "s_sem": 0.37447020806383435,
+        "s_graph": 0.7411546505422962,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Cultural",
+              "Historical",
+              "Relaxation"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Cultural",
+              "Historical",
+              "Relaxation"
+            ],
+            "matched": true
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Gulbarga",
+              "Karnataka",
+              "Gulbarga"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 13,
+        "name": "Chikmagalur",
+        "confidence": 0.5565910269003663,
+        "s_sem": 0.3983448022322773,
+        "s_graph": 0.14188682324208146,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Wildlife"
+            ],
+            "matched": false
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Wildlife"
+            ],
+            "matched": false
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Chikmagalur",
+              "Karnataka",
+              "Chikkamagaluru"
+            ],
+            "matched": true
+          }
+        ]
+      },
+      {
+        "dest_id": 244,
+        "name": "Jog Falls",
+        "confidence": 0.48285662755327396,
+        "s_sem": 0.25098800363535845,
+        "s_graph": 0.1656077891954033,
+        "evidence": [
+          {
+            "constraint": "trip_type",
+            "requested": "Cultural",
+            "actual": [
+              "Adventure",
+              "Nature",
+              "Wildlife"
+            ],
+            "matched": false
+          },
+          {
+            "constraint": "trip_types",
+            "requested": [
+              "Cultural"
+            ],
+            "actual": [
+              "Adventure",
+              "Nature",
+              "Wildlife"
+            ],
+            "matched": false
+          },
+          {
+            "constraint": "location_terms",
+            "requested": [
+              "karnataka"
+            ],
+            "actual": [
+              "Jog Falls",
+              "Karnataka",
+              "Shimoga"
+            ],
+            "matched": true
+          }
+        ]
+      }
+    ]
+  }
+]
