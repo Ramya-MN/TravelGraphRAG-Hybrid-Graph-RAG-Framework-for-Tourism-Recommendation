@@ -32,9 +32,6 @@ temp_graph.html
 *.zip
 *.pdf
 *.log
-
-# Large intermediate raw data that can be regenerated
-data/
  
 # Entries requested by user
 config/
